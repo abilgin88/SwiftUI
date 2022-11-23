@@ -12,6 +12,7 @@
 		8591D2F6292DC8CF009E1396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8591D2F5292DC8CF009E1396 /* Assets.xcassets */; };
 		8591D2F9292DC8CF009E1396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8591D2F8292DC8CF009E1396 /* Preview Assets.xcassets */; };
 		8591D300292DC8F5009E1396 /* focusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D2FF292DC8F5009E1396 /* focusState.swift */; };
+		8591D302292DC98C009E1396 /* DelegateMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D301292DC98C009E1396 /* DelegateMethodsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8591D2F5292DC8CF009E1396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8591D2F8292DC8CF009E1396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8591D2FF292DC8F5009E1396 /* focusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusState.swift; sourceTree = "<group>"; };
+		8591D301292DC98C009E1396 /* DelegateMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateMethodsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8591D2F1292DC8CE009E1396 /* dismissKeyboardApp.swift */,
 				8591D2F3292DC8CE009E1396 /* ContentView.swift */,
 				8591D2FF292DC8F5009E1396 /* focusState.swift */,
+				8591D301292DC98C009E1396 /* DelegateMethodsView.swift */,
 				8591D2F5292DC8CF009E1396 /* Assets.xcassets */,
 				8591D2F7292DC8CF009E1396 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				8591D300292DC8F5009E1396 /* focusState.swift in Sources */,
 				8591D2F4292DC8CE009E1396 /* ContentView.swift in Sources */,
+				8591D302292DC98C009E1396 /* DelegateMethodsView.swift in Sources */,
 				8591D2F2292DC8CE009E1396 /* dismissKeyboardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
