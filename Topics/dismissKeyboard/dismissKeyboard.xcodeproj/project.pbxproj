@@ -14,6 +14,7 @@
 		8591D300292DC8F5009E1396 /* focusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D2FF292DC8F5009E1396 /* focusState.swift */; };
 		8591D302292DC98C009E1396 /* DelegateMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D301292DC98C009E1396 /* DelegateMethodsView.swift */; };
 		8591D304292DCA2D009E1396 /* multipleTextfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D303292DCA2D009E1396 /* multipleTextfields.swift */; };
+		8591D306292DCC0D009E1396 /* onTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D305292DCC0D009E1396 /* onTapGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8591D2FF292DC8F5009E1396 /* focusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusState.swift; sourceTree = "<group>"; };
 		8591D301292DC98C009E1396 /* DelegateMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateMethodsView.swift; sourceTree = "<group>"; };
 		8591D303292DCA2D009E1396 /* multipleTextfields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleTextfields.swift; sourceTree = "<group>"; };
+		8591D305292DCC0D009E1396 /* onTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8591D2FF292DC8F5009E1396 /* focusState.swift */,
 				8591D301292DC98C009E1396 /* DelegateMethodsView.swift */,
 				8591D303292DCA2D009E1396 /* multipleTextfields.swift */,
+				8591D305292DCC0D009E1396 /* onTapGestureView.swift */,
 				8591D2F5292DC8CF009E1396 /* Assets.xcassets */,
 				8591D2F7292DC8CF009E1396 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				8591D300292DC8F5009E1396 /* focusState.swift in Sources */,
 				8591D2F4292DC8CE009E1396 /* ContentView.swift in Sources */,
 				8591D304292DCA2D009E1396 /* multipleTextfields.swift in Sources */,
+				8591D306292DCC0D009E1396 /* onTapGestureView.swift in Sources */,
 				8591D302292DC98C009E1396 /* DelegateMethodsView.swift in Sources */,
 				8591D2F2292DC8CE009E1396 /* dismissKeyboardApp.swift in Sources */,
 			);

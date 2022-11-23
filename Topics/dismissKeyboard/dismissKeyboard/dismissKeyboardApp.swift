@@ -11,7 +11,7 @@ import SwiftUI
 struct dismissKeyboardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            onTapGestureView()
         }
     }
 }
