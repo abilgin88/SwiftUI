@@ -15,6 +15,7 @@
 		8591D302292DC98C009E1396 /* DelegateMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D301292DC98C009E1396 /* DelegateMethodsView.swift */; };
 		8591D304292DCA2D009E1396 /* multipleTextfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D303292DCA2D009E1396 /* multipleTextfields.swift */; };
 		8591D306292DCC0D009E1396 /* onTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591D305292DCC0D009E1396 /* onTapGestureView.swift */; };
+		85EEA092292F182D003384C1 /* optionalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEA091292F182D003384C1 /* optionalEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8591D301292DC98C009E1396 /* DelegateMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateMethodsView.swift; sourceTree = "<group>"; };
 		8591D303292DCA2D009E1396 /* multipleTextfields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleTextfields.swift; sourceTree = "<group>"; };
 		8591D305292DCC0D009E1396 /* onTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureView.swift; sourceTree = "<group>"; };
+		85EEA091292F182D003384C1 /* optionalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionalEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8591D2F1292DC8CE009E1396 /* dismissKeyboardApp.swift */,
+				85EEA091292F182D003384C1 /* optionalEnum.swift */,
 				8591D2F3292DC8CE009E1396 /* ContentView.swift */,
 				8591D2FF292DC8F5009E1396 /* focusState.swift */,
 				8591D301292DC98C009E1396 /* DelegateMethodsView.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EEA092292F182D003384C1 /* optionalEnum.swift in Sources */,
 				8591D300292DC8F5009E1396 /* focusState.swift in Sources */,
 				8591D2F4292DC8CE009E1396 /* ContentView.swift in Sources */,
 				8591D304292DCA2D009E1396 /* multipleTextfields.swift in Sources */,
