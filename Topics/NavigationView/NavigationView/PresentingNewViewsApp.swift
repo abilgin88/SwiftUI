@@ -28,6 +28,7 @@ struct PresentingNewViewsApp: View {
                 
             }
             .navigationTitle("Navigation")
+            
         }
     }
 }

@@ -22,6 +22,7 @@ struct PassingData: View {
                 NavigationLink(destination: ResultView(choice: "Tails")) {
                     Text("Choose Tails")
                 }
+                
             }
             .navigationTitle("Navigation")
         }
