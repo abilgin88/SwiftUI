@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationViewApp: App {
     var body: some Scene {
         WindowGroup {
-            navigationViewTest()
+            PresentingNewViewsApp()
         }
     }
 }

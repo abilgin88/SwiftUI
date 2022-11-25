@@ -12,6 +12,7 @@
 		85EEA0A42930F83E003384C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EEA0A32930F83E003384C1 /* Assets.xcassets */; };
 		85EEA0A72930F83E003384C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EEA0A62930F83E003384C1 /* Preview Assets.xcassets */; };
 		85EEA0B029310691003384C1 /* navigationViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEA0AF29310691003384C1 /* navigationViewTest.swift */; };
+		85EEA0CC29310D2B003384C1 /* PresentingNewViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EEA0CB29310D2B003384C1 /* PresentingNewViewsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		85EEA0A32930F83E003384C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85EEA0A62930F83E003384C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85EEA0AF29310691003384C1 /* navigationViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationViewTest.swift; sourceTree = "<group>"; };
+		85EEA0CB29310D2B003384C1 /* PresentingNewViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingNewViewsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				85EEA09F2930F83C003384C1 /* NavigationViewApp.swift */,
 				85EEA0A12930F83C003384C1 /* ContentView.swift */,
 				85EEA0AF29310691003384C1 /* navigationViewTest.swift */,
+				85EEA0CB29310D2B003384C1 /* PresentingNewViewsApp.swift */,
 				85EEA0A32930F83E003384C1 /* Assets.xcassets */,
 				85EEA0A52930F83E003384C1 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				85EEA0A22930F83C003384C1 /* ContentView.swift in Sources */,
 				85EEA0B029310691003384C1 /* navigationViewTest.swift in Sources */,
+				85EEA0CC29310D2B003384C1 /* PresentingNewViewsApp.swift in Sources */,
 				85EEA0A02930F83C003384C1 /* NavigationViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
