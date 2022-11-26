@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
+        
+        // 1: Building out the UI for our Counter
         VStack {
             Text("[Count]")
                 .font(.system(size: 50, weight: .bold, design: .rounded))
