@@ -1,19 +1,28 @@
-//
 //  ContentView.swift
 //  SimpleMVVM
-//
 //  Created by Abdullah Bilgin on 11/26/22.
-//
 
 import SwiftUI
 
 // 2: Building View Model
 struct Counter { // Why do not use ":ObservedObject"?
-
+    
     var value : Int = 0
     
+    // increasing value functionz
     mutating func increase() { // mutating?
         value += 1
+    }
+    
+    // decreasing value function
+    mutating func decrease() {
+        value -= 1
+    }
+    
+    // set value to 0 function
+    mutating func clear() {
+        value = 0
+        //    }
     }
 }
 
@@ -30,12 +39,31 @@ struct ContentView: View {
             Text("\(counter.value)") // use string interpolation here because "value" is an integer so we can not directly pass it
                 .font(.system(size: 50, weight: .bold, design: .rounded))
                 .padding()
-            Button("increase") {
-                // 4: use increase function
-                counter.increase()
+            
+            // for horizontal views
+            HStack {
+                Button("increase") {
+                    // 4: use increase function
+                    counter.increase()
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                
+                Button("decrease") {
+                    // 4: use decrease function
+                    counter.decrease()
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
             }
-            .buttonStyle(.borderedProminent)
+            
+            Button("clear") {
+                // 4: use clear function
+                counter.clear()
+            }
+            .buttonStyle(.bordered)
             .controlSize(.large)
+            
         }
     }
 }
