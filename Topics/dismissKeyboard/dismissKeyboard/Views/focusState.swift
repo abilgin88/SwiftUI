@@ -16,19 +16,38 @@ struct focusState: View {
     @FocusState var isFocused : Bool
     
     var body: some View {
-        VStack {
-            Text("@FocusState for iOS 15+")
-                .font(.headline)
-                .padding()
-            TextField("Enter name here", text: $name)
-                .focused($isFocused) // 2: Adding the style modifier of to the textfield and assigning it the binding variable of isFocused variable.
-            Button {
-                isFocused = false // 3: Setting the isFocused value to false on the "Dismiss Keyboard" button click.
-            } label: {
-                Text("Dismiss Keyboard")
+        
+        NavigationView {
+            
+            VStack {
+                Text("@FocusState for iOS 15+")
+                    .font(.headline)
+                    .padding()
+                TextField("Enter name here", text: $name)
+                    .focused($isFocused) // 2: Adding the style modifier of to the textfield and assigning it the binding variable of isFocused variable.
+                Button {
+                    isFocused = false // 3: Setting the isFocused value to false on the "Dismiss Keyboard" button click.
+                } label: {
+                    Text("Dismiss Keyboard")
+                }
             }
+            .padding()
+            .navigationBarTitle("Focus State")
+            .navigationBarTitleDisplayMode(.large)
+            .navigationBarItems(trailing:
+                                    HStack {
+                Button(action: {
+                   print("TEST")
+
+                }) {
+                    Text("Back")
+                }
+                
+            })
         }
-        .padding()
+        
+        
+        
     }
 }
 
