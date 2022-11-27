@@ -26,13 +26,35 @@ struct ContentView: View {
     
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        // 3: Creating UI
+        NavigationView {
+            Form {
+                Section(header: Text("Enter an amount")) {
+                    TextField("Amount", text: $totalCost)
+                        .keyboardType(.decimalPad)
+                }
+                Section(header: Text("Select a tip amount (%)")) {
+                    Picker("Tip percentage", selection: $tipIndex) {
+                        ForEach(0 ..< tipPercentage.count) {
+                            Text("\(tipPercentage[$0])%")
+                        }
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                }
+                Section(header: Text("How many People?")) {
+                    Picker("Number of people", selection: $people) {
+                        ForEach(0 ..< 15) {
+                            Text("\($0)")
+                        }
+                    }
+                }
+                Section(header: Text("Total per person")) {
+                    Text("$ \(calculationTotal(), specifier: "%.2f")")
+                }
+            }
+            .navigationTitle("Split the Bill Together")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
 }
 
