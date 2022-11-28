@@ -1,10 +1,6 @@
-//
 //  ContentView.swift
 //  SavingAppData
-//
 //  Created by Abdullah Bilgin on 11/27/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -42,7 +38,6 @@ struct ContentView: View {
         }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
