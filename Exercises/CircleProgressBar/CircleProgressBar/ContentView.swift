@@ -16,12 +16,12 @@ struct ContentView: View {
     // 3: Call the progress bar into content view
         VStack {
             // add progress bar
-            ProgressBar(progress: self.$progressValue, color: Color.red) // you can change color
+            ProgressBar(progress: self.$progressValue, color: Color.cyan) // you can change color
                 // set in the center of screen
                 .frame(width: 160.0, height: 160.0)
                 // set initial values for progress bar
                 .padding(20.0).onAppear() {
-                    self.progressValue = 0.80 // you can change initial to see result
+                    self.progressValue = 0.40 // you can change initial to see result
                 }
             
             // create a button to increment
