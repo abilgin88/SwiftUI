@@ -12,6 +12,7 @@ struct ContentView: View {
     // 1: Defining variable
     @State var password: String = ""
     @State var passwordStrength: Int = 0
+    // @State var mainColor: Color = .white
     
     // 2: Defining a function to check password strength
     func checkStrength(_ password: String) -> Int {
@@ -28,6 +29,7 @@ struct ContentView: View {
             // check Symbol
             if "!£$%&/()=?^;:_ç°§*,.-_".contains(character) {
                 containSymbol = true
+                
             }
         }
         
@@ -42,31 +44,33 @@ struct ContentView: View {
     var body: some View {
         
         // 3: Creating UI
-        VStack {
-            // to get information by user
-            Text("How strong is your Password?")
-                .padding()
-            TextField("Enter your password:", text: $password)
-                .textFieldStyle(.roundedBorder)
-                .frame(width: 250)
-            
-            // show result to user
-            if checkStrength(password) == 0 {
-                Text("Weak")
-                    .foregroundColor(Color.red)
-                    .font(.system(size: 30))
+        ZStack {
+            //mainColor.ignoresSafeArea()
+            VStack {
+                // to get information by user
+                Text("How strong is your Password?")
                     .padding()
-            } else {
-                Text("Strong")
-                    .foregroundColor(Color.green)
-                    .font(.system(size: 30))
-                    .padding()
+                TextField("Enter your password:", text: $password)
+                    .textFieldStyle(.roundedBorder)
+                    .frame(width: 250)
+                
+                // show result to user
+                if checkStrength(password) == 0 {
+                    Text("Weak")
+                        .foregroundColor(Color.red)
+                        .font(.system(size: 30))
+                        .padding()
+                } else {
+                    Text("Strong")
+                        .foregroundColor(Color.green)
+                        .font(.system(size: 30))
+                        .padding()
+                }
             }
+            
         }
-        
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
